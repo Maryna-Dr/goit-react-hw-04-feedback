@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding-left: 10px;
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+}

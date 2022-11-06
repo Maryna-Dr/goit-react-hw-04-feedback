@@ -1,0 +1,28 @@
+.btn {
+    margin: 10px;
+    padding: 10px;
+
+    background-color: lightgreen;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: transform 500ms;
+}
+
+.btn::first-letter {
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transform: scale(1.15);
+}
+
+.neutral {
+    background-color: rgb(241, 241, 100);
+}
+
+.bad {
+    background-color: lightsalmon;
+}
