@@ -1,5 +1,6 @@
-import { Section, FeedbackOptions, Statistics, Notification } from 'components';
 import { useReducer } from 'react';
+
+import { Section, FeedbackOptions, Statistics, Notification } from 'components';
 
 function addFeedback(feedback, action) {
   switch (action.type) {
